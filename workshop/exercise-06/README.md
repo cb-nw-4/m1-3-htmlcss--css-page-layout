@@ -2,7 +2,7 @@
 
 ## Exercise 6
 
-Update the `index.html` file and `style.css` file to reproduces the following:
+Update the `style.css` file to reproduces the following:
 
 ![exercise-6 goal](../../__lecture/assets/ex-6-goal.gif)
 
