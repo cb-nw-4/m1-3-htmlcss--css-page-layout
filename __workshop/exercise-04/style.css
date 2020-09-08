@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap column;
+    max-width: 60%;
+    align-items: center ;
+    padding-left: 200px;
+}
+
+
+.title{
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content{
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.link :after{
+    content: '  >';
+    color: blue;
+}
