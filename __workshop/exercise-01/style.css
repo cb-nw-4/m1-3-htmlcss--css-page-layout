@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+   
+} 
+
+.container > div {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar, 
+.footer {
+    background-color: #303030;
+    color: white;   
+    height: 40px;
+
+}
+
+.content {
+    font-size: 2em;
+    text-transform: uppercase;   
+}
+
