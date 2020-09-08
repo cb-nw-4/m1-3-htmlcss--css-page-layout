@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.row{
+    width: calc(100% /3);
+    justify-content: right;
+}
+
+img{
+    width: 100%
+}
