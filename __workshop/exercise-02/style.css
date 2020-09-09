@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: block;
+    background-color: #3a3633;
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+.navBar a:hover {
+    transition: .2s;
+    transition-timing-function: ease-in;
+    opacity: .5;
+}
+
+.apple {
+    align-self: center;
+    padding: 10px;
+}
