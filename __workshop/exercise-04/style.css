@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'poppins';
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  min-height: 100vh;
+  line-height: 1.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 1.33em;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none ;
+  color: #3498DB ;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+a::after {
+  content: '>';
+  padding: 0.2em;
+  
+}
