@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #3a3633;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+color: white;
+text-decoration: none;
+opacity: 100%;
+transition: 0.2s ease-in-out;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 50%;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0% 12%;
+}
+
+.apple {
+    display: block;
+    margin: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.apple:hover {
+    opacity: 50%;
+} 
