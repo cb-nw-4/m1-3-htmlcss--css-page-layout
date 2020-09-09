@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    font-size:45px;
+}
+
+.one{
+    background-color:black;
+    color:white;
+    
+}
