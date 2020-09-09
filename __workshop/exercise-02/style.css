@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    background-color: #3a3633;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+}
+
+a:hover {
+    transition: 0.2s;
+    opacity: 0.9;
+}
+
+/* LOGO isn't alligned */
