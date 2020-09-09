@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    color: white;
+    text-shadow: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
