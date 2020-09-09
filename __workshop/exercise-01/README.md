@@ -15,11 +15,11 @@ Your HTML should have the following structure:
 <html>
   <head>
     <link href="style.css" rel="stylesheet" />
+   rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
-      <!-- Stuff here -->
     </div>
   </body>
 </html>
