@@ -2,6 +2,42 @@ body {
   margin: 0;
 }
 
-.mobile-nav-button img {
+.mobile-nav-button img{
   width: 18px;
+
 }
+.desktop-nav{
+  display: block;
+  align-items: right;
+}
+h1{margin-block-start: 0em;
+  margin-block-end: 0em;}
+
+ul{
+  display: flex;
+  justify-content: right;
+  float:right;
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  
+}
+
+li{
+  padding: 0 10px 0 10px;
+  margin-right:10px;
+}
+
+.mobile-nav{
+  float:right;
+  align-items: right;
+  display: none;
+  margin-right: 10px;
+}
+
+@media(max-width:800px){
+  .mobile-nav{display:block;}
+  .desktop-nav{display: none;}
+}
+/* Question- what is the purpose of :last-of-type?*/
