@@ -1,0 +1,40 @@
+nav
+{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row; 
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+body
+{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    
+    
+}
+
+.container
+{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row; 
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
