@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;/*horizontal*/
+    align-items: center;
+}
+
+.nav-bar, .footer, .main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 100vw;
+}
+
+.nav-bar, .footer{
+    background-color: black;
+    color: white;
+}
+
+.main-content{
+    flex:1;
+    font-size: 25px;
+}
+
+
