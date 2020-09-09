@@ -1,0 +1,35 @@
+.container {
+    max-width: 810px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    margin: auto;
+    line-height: 1.6;
+    
+   
+}
+h1{
+    font-size: 48px;
+    margin: 10px;
+}
+
+p, .link{    
+    margin: 10px;
+    font-size: 33px;     
+}
+
+.box-text{
+    border: solid 2px black;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.link{
+    text-decoration : none;
+    margin: 30px;
+}
+.link::after {
+    content: '>';
+    padding-left: 10px;
+  }
