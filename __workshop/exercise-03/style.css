@@ -1,0 +1,20 @@
+.background{
+    background-image: url("imgs/bg.jpg");
+    height: 100vh;
+  
+
+
+   
+}
+.centered{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+
+
+
+}

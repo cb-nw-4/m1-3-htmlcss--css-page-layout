@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+.limited-time{
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 7px;
+    font-size: 10px;
+    margin: auto;
+ 
+
+
+
+}
+.content{
+    margin: auto;
+    width: 355px;
+
+
+
+}
+h2, p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}

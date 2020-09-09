@@ -1,0 +1,28 @@
+body{
+
+}
+
+.nav {
+  background-color: darkgrey; 
+  text-align: center;
+  margin: 0px;
+
+}
+
+.nav li {
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  font-family: 'Lato', sans-serif;
+;
+
+}
+li:hover{
+  color: grey;
+  cursor: pointer;
+}
+img{
+
+
+}
