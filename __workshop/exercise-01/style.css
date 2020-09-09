@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: poppins;
+    text-align: center;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+nav {
+    background-color: #333333;
+    color: white;
+    padding: 10px 0;
+}
+
+section {
+    font-size: 25px;
+    font: #333333;
+}
+
+footer {
+    background-color: #333333;
+    color: white; 
+    padding: 10px 0;
+}
