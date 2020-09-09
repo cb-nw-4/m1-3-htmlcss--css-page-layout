@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+nav {
+    background-color: #3a3633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+}
+
+a {
+    color: white;
+    padding: 0 50px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+display
