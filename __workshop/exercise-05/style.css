@@ -1,0 +1,12 @@
+.new{
+    display: flex;
+flex-wrap: nowrap;
+}
+
+.row{
+    margin-right: 3px;
+}
+
+img{
+    width: calc(100% - 0px)
+}
