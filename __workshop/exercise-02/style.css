@@ -1,0 +1,28 @@
+
+nav {
+ background-color: #3a3633;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+img{display:block;
+transition:0.2s;}
+
+section {
+padding: 0 5px 0 5px;
+margin-inline-end: 30px;
+}
+
+a{  
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-decoration: none ;
+    text-align:center;
+    color: white;
+transition:0.2s;
+}
+img:hover{opacity: 0.5;}
+a:hover{
+    opacity: 0.5;
+}

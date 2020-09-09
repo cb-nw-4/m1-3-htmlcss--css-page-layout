@@ -14,6 +14,7 @@ Your HTML should have the following structure:
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
