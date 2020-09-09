@@ -1,0 +1,34 @@
+html body{
+    align-content: center;
+    text-align:center;
+}
+
+.style{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 50%;
+    padding-left: 30%;
+    padding-right: 30%;
+    display:block;
+}
+
+.button {
+    padding: 7px 15px 7px 15px;;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:after {
+    content: '>';
+}
