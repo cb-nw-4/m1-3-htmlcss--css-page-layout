@@ -1,0 +1,12 @@
+body{
+    margin:0;
+}
+
+.container{
+    display:flex;  
+}
+
+.image{
+    margin: 1px;
+    width: calc((100% - 6px) /3);    
+}
