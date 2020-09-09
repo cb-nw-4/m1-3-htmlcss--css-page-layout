@@ -3,11 +3,45 @@ body {
 }
 
 .nav {
-  background-color: #383737;
+  background-color: #383737; 
 }
 
-.nav-dropdown {
+.nav-items {
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
+  text-decoration: none; 
+  margin: 0px;
+  padding: 0px; 
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  position : relative;
+  
+}
+.dropdown {
+  padding: 20px;
+}
+.dropdown-content{
+  list-style-type: none;
+  position: absolute;
+  top: 58px;
+  display: none;
+  background-color: DeepSkyBlue;
+  padding: 0px;
+ 
+}
+
+.dropdown-content--item{
+  padding: 15px 30px 15px 15px;  
+}
+
+p{
+  margin: 0px;
+}
+
+.dropdown:hover  .dropdown-content{
+  display:block;
+}
+
+.dropdown-content--item:hover  {
+  background-color: DodgerBlue;
 }
