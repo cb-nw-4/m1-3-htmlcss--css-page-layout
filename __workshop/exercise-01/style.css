@@ -5,12 +5,11 @@ body {
 
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     text-align: center;
-    line-height: 20px;
-    font-family: 'Mukta', sans-serif;
-    font-weight: bold;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
