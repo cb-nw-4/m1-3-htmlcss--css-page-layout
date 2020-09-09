@@ -1,0 +1,14 @@
+body {
+margin: 0;
+
+}
+
+img {
+    
+    margin: 2px;
+}
+
+.container {
+    display: flex;
+    
+}
