@@ -17,7 +17,7 @@ Your HTML should have the following structure:
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    ...
+    
   </body>
 </html>
 ```

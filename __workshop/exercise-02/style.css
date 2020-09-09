@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: baseline;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3a3633 ;
+    list-style-type: none;
+    
+}
+
+.nav li {
+    padding:10px 40px 10px 40px;
+}
+
+
+.nav a  {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity:0.5 ;
+    transition: (0.2s) ;
+    transition-timing-function: ease-in-out;
+}
