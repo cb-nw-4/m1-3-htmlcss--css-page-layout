@@ -17,7 +17,6 @@ table{
   border-radius: 5px;
 }
 tr:nth-child(even) {background-color: #CCC;}
-tr:nth-child(odd) {background-color: #FFF;}
 
 .links{
   list-style: none;
