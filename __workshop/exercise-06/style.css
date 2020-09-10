@@ -35,14 +35,6 @@ nav > ul > li {
   position: relative;
 }
 
-/* nav > ul > li > div > ul { COMMENT: If I remove "> div", it makes a weird hover, why? (Comment out line 47 to 58)
-  display: block;
-  position: absolute;
-  list-style: none;
-  background-color: skyblue;
-  width: 100px;
-  margin-top: 12px;
-} */
 
 nav > ul > li > div > ul {
   display: none;
