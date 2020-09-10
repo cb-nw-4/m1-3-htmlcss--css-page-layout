@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #3a3633;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.menu {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 25px 0px 25px;
+    line-height: 0;
+}
+li:hover {
+    transition: 0.2s;
+    opacity: 0.8;
+}
+a {
+    color: white;
+    text-decoration: none;   
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
