@@ -5,3 +5,32 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.desktop-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin:0 20px;
+}
+
+li:last-of-type {
+  margin-right: 0;
+}
+
+
+@media(min-width: 801px) {
+  .mobile-nav{display: none;}
+}
+
+@media(max-width:800px) {
+  .desktop-nav{display:none;}
+}
