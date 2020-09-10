@@ -1,0 +1,48 @@
+body {
+    font-family: poppins;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
+header {
+    font-size: 35px;
+    border: solid 1px;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+
+p {
+    font-size: 30px; 
+    margin-top: -10px;
+}
+
+.link {
+    text-decoration: none;
+    color:#0073e6;
+}
+
+.link:after {
+    content: '>';
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:hover:after {
+    text-decoration: none;
+}
