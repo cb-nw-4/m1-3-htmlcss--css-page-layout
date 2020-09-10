@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
 }
 
@@ -10,4 +10,58 @@ body {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #383737;
+  width: 100%;
+  height: 50px;
+}
+
+nav > ul {
+  color: #fff;
+  float: left;
+  margin-top: 20px;
+}
+
+nav > ul > li {
+  float: left;
+  padding-left: 30px;
+  position: relative;
+}
+
+/* nav > ul > li > div > ul { COMMENT: If I remove "> div", it makes a weird hover, why? (Comment out line 47 to 58)
+  display: block;
+  position: absolute;
+  list-style: none;
+  background-color: skyblue;
+  width: 100px;
+  margin-top: 12px;
+} */
+
+nav > ul > li > div > ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: skyblue;
+  width: 100px;
+  margin-top: 12px;
+}
+
+nav > ul > li:hover > div > ul {
+  display: block;
+}
+
+.dropdown-content--item {
+  padding: 10px 0px;
+  padding-left: 15px;
+}
+
+.dropdown-content--item:hover {
+  background-color: rgb(69, 137, 163);
 }
