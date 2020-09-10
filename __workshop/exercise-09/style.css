@@ -45,14 +45,13 @@ li{
 } */
 
 a:link, a:visited {
- 
   background-color:rgb(63, 162, 255);
   color: white;
-  /* padding: 14px 25px; */
+  padding:14px;
   text-align: center;
   text-decoration: none;
   margin-inline-end: 10px;
-  width:60%;
+  width:20%;
 }
 
 /* question: can't get the width in order. */
