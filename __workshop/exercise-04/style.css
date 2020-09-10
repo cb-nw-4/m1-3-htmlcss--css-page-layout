@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+}
+.main {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.promo-time {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.35em;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+.promo-main {
+    line-height: 0.75em;
+}
+.promo-desc {
+    font-size: 1.25em;
+    margin-bottom: 0.70em;
+}
+.link {
+    font-size: 1.25em;
+    text-decoration: none;
+}
+.link:hover::after {
+content: ' >';
+}
