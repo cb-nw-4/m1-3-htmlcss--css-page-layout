@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: black solid 1px;
+    margin-top: 10px;
+} 
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.second {
+    margin-left: 5px;
+}
+
+
+
+
+
+

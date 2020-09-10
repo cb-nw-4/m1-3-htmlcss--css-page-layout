@@ -1,0 +1,52 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    /* position: relative; */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-content: center;
+    /* max-width: 500px; */
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 25px;
+    font-weight: bold;
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    align-self: center;
+}
+
+
+h1 {
+    width: 100%;
+}
+
+p {
+    font-weight: bold;
+    width: 380px;
+    align-self: center;
+}
+
+.link::after {
+    content: '>';
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6699ff;
+}
+
+header, h1, p, .link {
+    margin-top: 10px;
+}
+
+/* How to center the HEADER and break the paragraph into 3 lines? */
