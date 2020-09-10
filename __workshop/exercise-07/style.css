@@ -4,4 +4,42 @@ body {
 
 .mobile-nav-button img {
   width: 18px;
+ 
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+  margin: 1em 2em;
+}
+
+li:last-child {
+  margin: 1em 1em;
+}
+
+
+@media (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    padding: 1em;
+    position: fixed;
+    top: 12px;
+    right: 20px;
+  }
 }
