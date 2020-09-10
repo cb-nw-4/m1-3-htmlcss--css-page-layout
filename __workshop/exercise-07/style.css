@@ -5,3 +5,54 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  padding: 0 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+li {
+  margin: 0 20px;
+}
+
+li:last-of-type {
+  margin-right: 50px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    display: none;
+  }
+}
+    
+
+
+
+
+
+- The pseudo-selector `:last-of-type` is useful to avoid having any right margin on the last desktop nav item (again, no HTML changes required).
