@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    font-family: 'poppins', sans-serif;
+    
+    align-items: center;
+}
+
+.container {
+    min-height: 100vh;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.nav {
+    color: white;
+    background-color: #2d2b2b;
+    padding: 5px;
+}
+
+.content {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    color: white;
+    background-color: #2d2b2b;
+    padding: 5px;
+}
+
+
+
