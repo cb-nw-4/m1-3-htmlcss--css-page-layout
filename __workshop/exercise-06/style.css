@@ -6,8 +6,33 @@ body {
   background-color: #383737;
 }
 
-.nav-dropdown {
+ul {
   color: #fff;
-  text-decoration: none;
   display: inline-block;
+  padding: 0 10px;
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+padding: 0 10px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #33BBFF;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.dropdown-content--item {
+  color: #fff;
+  display: block;
+  float: none;
+  padding: 10px;
 }
