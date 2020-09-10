@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    padding: 7px 20px 7px 20px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2{
+    max-width: 570px;
+    margin: auto;
+}
+
+.link{
+    font-size: 24px;
+    color: dodgerblue;
+}
+
+.link::after{
+    content: '>';
+}
+
+a{
+    text-decoration: none;
+}
+a:visited
+{text-decoration: none;}
