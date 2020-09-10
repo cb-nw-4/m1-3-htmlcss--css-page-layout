@@ -1,4 +1,5 @@
 body{
+  margin: 0;
 
 }
 
@@ -6,15 +7,24 @@ body{
   background-color: darkgrey; 
   text-align: center;
   margin: 0px;
+  display:flex;
+  height: 50px;
+
+
+
 
 }
 
 .nav li {
   font-size: 20px;
   padding: 20px;
-  display: inline-block;
   color: white;
   font-family: 'Lato', sans-serif;
+  margin: auto;
+  display: inline-block;
+
+
+
 ;
 
 }
@@ -22,7 +32,7 @@ li:hover{
   color: grey;
   cursor: pointer;
 }
-img{
-
+img:hover{
+opacity: 70%;
 
 }

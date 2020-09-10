@@ -19,7 +19,9 @@ Your HTML should have the following structure:
 
   <body>
     <div class="container">
-      <!-- Stuff here -->
+     <div class="nav"> 
+       <h2>nav</h2>
+     </div>
     </div>
   </body>
 </html>
@@ -34,12 +36,12 @@ Your HTML should have the following structure:
 ### Properties Needed
 
 ```
-  font-family
+  font-family - done
   flex-direction
-  min-height
+  min-height - dpne
   height
-  background-color
-  color
+  background-color - done
+  color - done
   display
   align-items
   justify-content
