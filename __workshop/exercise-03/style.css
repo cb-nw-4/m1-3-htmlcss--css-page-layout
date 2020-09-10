@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.background{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('imgs/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+}
