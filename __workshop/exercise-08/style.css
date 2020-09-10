@@ -33,7 +33,7 @@ font-size: 17px;
   width: 300px;
   margin-top: 5px;
 margin-bottom: 5px;
-border: 2px solid #96c5f8;
+border: 1px solid #96c5f8;
 }
 
 .radio-label,
@@ -42,7 +42,7 @@ border: 2px solid #96c5f8;
   margin-inline: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
- 
+
 }
 
 label {display: block;
@@ -52,25 +52,21 @@ label {display: block;
 
 .section {
   margin-top: 30px;
- /* border-top: 1px solid gray;
- border-bottom: 1px solid gray; */
+  border-top: 1px solid gray;
 }
 
-/* .section label{ border-top: 1px solid gray;
-  border-bottom: 1px solid gray;} */
-.section > label {
+.section >label {
   text-align: left;
 }
 
-select {display: flex;
-  flex-direction: column;
+select {
   text-align: left;
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
 textarea {
-  border: 2px solid #96c5f8;
+  border: 1px solid #96c5f8;
   margin-top: 8px;
   width:100%;
 }
@@ -79,20 +75,25 @@ textarea {
   margin: auto;
   display: block;
   margin-top: 8px;
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid #008CBA;
   padding: 10px;
 }
 
 .form-button:hover {
-  background-color: #008CBA; 
-  color: white; 
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
 }
-input:active, textarea:active{
-  border: 2px solid #00ccff;
-  }
 
 
-  /* question: to make horizontal lines, border 
-  effect, and pickup in one line. */
+  input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    border: 2px solid #00ccff;
+}
+
+ 
