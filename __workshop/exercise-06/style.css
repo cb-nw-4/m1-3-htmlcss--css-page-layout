@@ -2,12 +2,36 @@ body {
   margin: 0;
 }
 
+
 .nav {
   background-color: #383737;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
-.nav-dropdown {
+.nav-items {
   color: #fff;
   text-decoration: none;
+  display: flex;
+  list-style-type: none;
+}
+.dropdown {
+  position: relative;
   display: inline-block;
+}
+
+.dropdown-label:hover .dropdown-content {
+  list-style-type: none;
+  display: block;
+}
+
+.dropdown-content {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 1;
 }
