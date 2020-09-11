@@ -40,25 +40,17 @@ div {
 
 .cool:hover{
   animation-name: blips;
-  animation-duration: 0.6s;
+  animation-duration: 1s;
   transition-timing-function: ease-in;
-  outline: 0;
+  outline:0
 }
 
 @keyframes blips {
-  0% {
-    transform: scale(1);
+  from {
+    transform: scale(1.5) rotate(-365deg)
   }
 
-  85% {
-    transform: scale(1.5);
-  }
-  
-  95% {
-    transform: scale(0.5);
-  }
-
-  100% {
-    transform: scale(1);
+  to {
+    transform: scale(1) rotate(0)
   }
 }

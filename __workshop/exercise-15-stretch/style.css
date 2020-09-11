@@ -1,0 +1,52 @@
+body {
+    margin: 30px;
+    font-family: poppins;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: #fff;
+}
+
+.btn-primary {
+    border: 2px solid #1886FF;
+    color: #1886FF;
+}
+
+.btn-secondary {
+    border: 2px solid #838B91;
+    color: #838B91;
+}
+
+.btn-success {
+    border: 2px solid #2DA748;
+    color: #2DA748;
+}
+
+.btn-danger {
+    border: 2px solid #DE4251;
+    color: #DE4251;
+}
+
+.btn-warning {
+    border: 2px solid #FFC725;
+    color: #FFC725;
+}
+
+.btn-info {
+    border: 2px solid #45B4C6;
+    color: #45B4C6;
+}
+
+.btn-light {
+    border: 2px solid #FBFCFC;
+    color: #FBFCFC;
+}
+
+.btn-dark {
+    border: 2px solid #3B4146;
+    color: #3B4146;
+}

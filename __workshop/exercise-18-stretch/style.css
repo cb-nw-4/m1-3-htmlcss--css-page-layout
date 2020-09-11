@@ -1,0 +1,38 @@
+body {
+    margin: 30px;
+    font-family: poppins;
+}
+
+.card-header {
+    background-color: #F7F7F7;
+    border: 1px solid #EBEBEB;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+    width: 40%;
+}
+
+.card-body {
+    border: 1px solid #EBEBEB;
+    border-radius: 0 0 5px 5px;
+    width: calc(40% + 40px);
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid #EBEBEB;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

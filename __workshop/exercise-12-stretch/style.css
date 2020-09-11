@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    min-height: 100vh;
+    text-align: center;
+    padding: auto;
+}
+
+nav,
+footer {
+    background-color: #3A3633;
+    color: white;
+    min-height: 5vh;
+    font-size: 16px;
+
+    margin: 0;
+}
+
+.grey {
+    margin: 0;
+    padding: calc((5vh - 25px)/2);
+}
+
+.content {
+    margin: 0;
+    height: 90vh;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text {
+    margin: 0;
+    padding: calc((90vh - 48px)/2);
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 30px;
+    font-family: poppins;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 3px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.small{
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.blue {
+    background-color: #037BFF;
+}
+
+.grey {
+    background-color: #6C757D;
+}
+
+.btn:disabled {
+    opacity: 60%;
+}
