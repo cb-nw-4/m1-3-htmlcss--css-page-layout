@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.rows{
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: calc(100vw / 3);
+}
