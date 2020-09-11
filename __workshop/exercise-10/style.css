@@ -74,7 +74,7 @@ body {
   }
 
   to {
-      transform: translate(5px);
+      transform: translateY(5px);
   }
 
 }
