@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px; 
+}
+p{
+    margin: 0;
+}
+
+.alert{    
+    padding: 25px 30px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+.alert-primary {  
+    background-color: hsl(210, 100%, 90%);
+    color: hsl(210, 100%, 20%);
+    border-color: hsl(210, 100%, 85%);   
+} 
+
+.alert-secondary{
+    background-color: hsl(220, 5%, 90%);
+    color: hsl(220, 5%, 20%);
+    border-color: hsl(220, 5%, 85%);
+}
+.alert-success{
+    background-color: hsl(132, 41%, 88%);
+    color: hsl(132, 41%, 20%);
+    border-color: hsl(132, 41%, 85%);
+}
+
+.alert-danger{
+    background-color: hsl(355, 74%, 91%);
+    color: hsl(355, 74%, 20%);
+    border-color: hsl(355, 74%, 85%);
+}
+
+.alert-warning{
+    background-color: hsl(47, 100%, 90%);
+    color: hsl(47, 100%, 20%);
+    border-color: hsl(47, 100%, 80%);
+}
+
+.alert-info{
+    background-color: hsl(189, 53%, 88%);
+    color: hsl(189, 53%, 20%);
+    border-color: hsl(189, 53%, 85%);
+}
+
+.alert-light{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 40%);
+    border-color: hsl(0, 0%, 99%);
+}
+
+.alert-dark{
+    background-color: hsl(200, 4%, 85%);
+    color: hsl(200, 4%, 15%);
+    border-color: hsl(200, 4%, 80%);
+}
