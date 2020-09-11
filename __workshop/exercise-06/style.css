@@ -6,8 +6,42 @@ body {
   background-color: #383737;
 }
 
-.nav-dropdown {
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+ul {
   color: #fff;
-  text-decoration: none;
+  list-style-type: none;
+}
+
+.dropdown {
+  position: relative;
   display: inline-block;
+}
+
+.link {
+  padding-left: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00B2EE;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  display: block;
+  padding: 15px 10px 15px 0px;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: #1D7CF2;
 }
