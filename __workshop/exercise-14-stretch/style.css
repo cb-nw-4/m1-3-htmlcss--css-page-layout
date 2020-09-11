@@ -1,3 +1,16 @@
+:root {
+    --btn-primary-color: #007bff;
+    --btn-secondary-color: #6c757d;
+    --btn-success-color: #28a745;
+    --btn-danger-color: #dc3545;
+    --btn-warning-color: #ffc107;
+    --btn-info-color: #17a2b8;
+    --btn-light-color: #f8f9fa;
+    --btn-dark-color: #343a40;
+    --btn-white-color: #fff;
+  }
+
+
 body {
     margin: 40px;
 }
@@ -12,46 +25,46 @@ body {
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background-color: var(--btn-primary-color);
     color: white;
 }
 
 .btn-secondary {
-    background-color: #6c757d;
+    background-color: var(--btn-secondary-color);
     color: white;
 }
 
 .btn-success {
-    background-color: #28a745;
+    background-color: var(--btn-success-color);
     color: white;
 }
 
 .btn-danger {
-    background-color: #dc3545;
+    background-color: var(--btn-danger-color);
     color: white;
 }
 
 .btn-warning {
-    background-color: #ffc107;
+    background-color: var(--btn-warning-color);
     color: black;
 }
 
 .btn-info {
-    background-color: #17a2b8;
+    background-color: var(--btn-info-color);
     color: white;
 }
 
 .btn-light {
-    background-color: #f8f9fa;
+    background-color: var(--btn-light-color);
     color: black;
 }
 
 .btn-dark {
-    background-color: #343a40;
+    background-color: var(--btn-dark-color);
     color: white;
 } 
 
 .btn-link {
-    background-color: #fff;
+    background-color: var(--btn-white-color);
     color: #007bff;
 }

@@ -1,26 +1,5 @@
 
-:root {
-    --btn-primary-color: #007bff;
-    --btn-secondary-color: #6c757d;
-    --btn-success-color: #28a745;
-    --btn-danger-color: #dc3545;
-    --btn-warning-color: #ffc107;
-    --btn-info-color: #17a2b8;
-    --btn-light-color: #f8f9fa;
-    --btn-dark-color: #343a40;
-    --btn-white-color: #fff;
-  }
-  
-body {
-    margin: 40px;
-}
-
-.btn {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px; 
-    padding: 15px 20px;   
-    margin: 2px;
-    border-radius: 5px;  
+.btn {    
     background-color: white;
     border: solid 2px; 
 }
