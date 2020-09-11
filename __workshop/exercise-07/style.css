@@ -48,31 +48,9 @@ h1 {
   .desktop-nav {
     display: none;
   }
+
+  .mobile-nav-button img {
+    width: 18px;
+  }
 }
 
-
-
-
-
-
-
-.mobile-nav-button img {
-  width: 18px;
-}
-
-
-```
-@media
-:last-of-type
-```
-
-### Properties Needed
-
-```
-/* display */
-/* justify-content */
-/* align-items */
-/* padding */
-/* margin */
-/* list-style */
-```
