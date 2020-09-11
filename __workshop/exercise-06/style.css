@@ -1,50 +1,40 @@
 h3 {
   font-weight: normal;
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
 .nav {
   background-color: #383737;
+  width: 500px;
+  max-height: 57px;
 }
 
-.nav-items{
+.nav-items {
   display: flex;
+  top: 0;
   color: white;
   list-style: none;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
-  min-width: 100px;
-  top: 70px;
-  left: 45px;
-  list-style: none;
   background-color: #33ccff;
+  list-style: none;
 }
 
-.dropdown-content li {
-  color: #fff;
+.dropdown-content--item {
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 0;
-  text-decoration: none;
   display: block;
-  text-align: left;
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
+  text-align: left;
+}
+
+.dropdown-content--item:hover {
+  background-color: #3399ff;
+  left: 10%;
   cursor: default;
-  padding-top: 10px;
-}
-
-.dropdown-content > li:hover{
-    background-color: #66ccff;
-    cursor: default;
-}
-
-.dropdown-label:hover {
-  display: block;
-  padding-bottom: 25px;
 }
