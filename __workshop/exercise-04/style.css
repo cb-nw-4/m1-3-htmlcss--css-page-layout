@@ -3,10 +3,9 @@
     font-family: 'Poppins', sans-serif; 
     text-align: center;
     margin: auto;
-    line-height: 1.6;
-    
-   
+    line-height: 1.6;   
 }
+
 h1{
     font-size: 48px;
     margin: 10px;
@@ -32,9 +31,9 @@ p, .link{
 .link::after {
     content: '>';
     padding-left: 10px;
-  }
+}
 
-  .link:hover {
-      color: DodgerBlue;
+.link:hover {
+    color: DodgerBlue;
 
-  }
+}
