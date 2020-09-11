@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container{
+    min-height: 100vh;
+    display: block
+}
+.content{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: calc(90vh + 10px);
+
+}
+.navBar, .footer{
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
