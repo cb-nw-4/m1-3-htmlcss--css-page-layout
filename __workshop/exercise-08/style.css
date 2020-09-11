@@ -56,8 +56,10 @@ body {
   padding: 5px 0;
 }
 
+/*
 .section > label {
 }
+I did not use this one */
 
 
 select {
