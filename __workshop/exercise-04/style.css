@@ -27,9 +27,14 @@ p, .link{
 
 .link{
     text-decoration : none;
-    margin: 30px;
+    margin: 30px;   
 }
 .link::after {
     content: '>';
     padding-left: 10px;
+  }
+
+  .link:hover {
+      color: DodgerBlue;
+
   }
