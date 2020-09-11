@@ -31,10 +31,10 @@ body {
   border-radius: 8px;
   background-color: rgb(33, 142, 243);
   box-shadow: 0 0 10px 5px #bbb9b9;
-  transition: .5s ease-out;
+  transition: 1.2s ease-out;
 }
 
 .cool:hover {
   cursor: pointer;
-  transform: scale(1.2) ;
+  transform: scale(1.2) rotate(360deg);
 }
