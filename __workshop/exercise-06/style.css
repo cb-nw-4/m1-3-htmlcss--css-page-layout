@@ -6,8 +6,43 @@ body {
   background-color: #383737;
 }
 
-.nav-dropdown {
+.nav-items{
+  margin: 0;
+  padding: 0;
   color: #fff;
   text-decoration: none;
   display: inline-block;
 }
+
+.dropdown-label{
+  margin: 0;
+  padding: 20px;
+}
+
+.nav-items > li{
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content--item{
+  background-color: deepskyblue;
+  color:white;
+  padding: 20px 30px 10px 20px;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content--item:hover{
+  background-color: dodgerblue;
+}
+
+li{
+  list-style-type:none;
+}
+
