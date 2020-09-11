@@ -2,6 +2,33 @@ body {
   margin: 0;
 }
 
+h1 {
+  display: inline;
+}
+
+.desktop-nav, .mobile-nav {
+  float: right;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+@media screen and (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media not screen and (min-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 250px;
 }
