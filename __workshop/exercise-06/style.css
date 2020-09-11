@@ -10,13 +10,12 @@ body {
   color: #fff;
   text-decoration: none; 
   margin: 0px;
-  padding: 0px; 
-  display: flex;
-  align-items: center;
+  padding: 0px;   
   list-style-type: none;
   position : relative;
   
 }
+
 .dropdown {
   padding: 20px;
 }
@@ -31,10 +30,15 @@ body {
 }
 
 .dropdown-content--item{
-  padding: 15px 30px 15px 15px;  
+  padding: 15px 30px 15px 15px; 
+  display: block;
 }
 
-p{
+li {
+  display: inline-block; 
+}
+
+p {
   margin: 0px;
 }
 
@@ -45,3 +49,4 @@ p{
 .dropdown-content--item:hover  {
   background-color: DodgerBlue;
 }
+
