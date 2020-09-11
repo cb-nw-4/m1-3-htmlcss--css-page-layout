@@ -4,35 +4,78 @@ body {
 }
 
 .header {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #0099ff;
+  width: 100%;
 }
 
 .registration-form {
+  display: block;
+  text-align: left;
+  margin: 20px;
 }
 
 .text-field {
+  display: block;
+  margin-left: 35%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 2em;
+  border: 1px #0099ff solid;
+  border-radius: 2px;
 }
 
 .radio-label,
 .checkbox-label {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 label {
+  display: block;
+  text-align: center;
 }
 
 .section {
+  border-top: solid 1px lightgrey;
+  text-align: left;
 }
 
 .section > label {
+  display: inline;
+  text-align: left;
 }
 
 select {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 textarea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 6em;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: none;
 }
 
 .form-button {
+  background-color: #fff;
+  display: block;
+  padding: 15px 30px;
+  border: solid 1px #0099ff;
+  margin: auto;
 }
 
 .form-button:hover {
+  color: #fff;
+  background-color: #0099ff;
+  transition: 0.2s ease-in;
 }
