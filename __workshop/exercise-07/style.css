@@ -2,6 +2,51 @@ body {
   margin: 0;
 }
 
+.container {
+  float: left;
+  width: 100%;
+}
+
+.container h1, ul {
+  float: left;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.desktop-nav li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+li:last-of-type {
+  align-self: flex-end;
+}
+
+.mobile-nav-button {
+  float: right;
+  margin: 20px;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+@media (max-width: 800px) {
+  .mobile-nav-button img {
+    display: inline;
+  }
+  .desktop-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .mobile-nav-button img {
+    display: none;
+  }
 }
