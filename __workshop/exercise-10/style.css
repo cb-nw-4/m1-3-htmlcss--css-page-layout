@@ -12,8 +12,7 @@ body {
 
 .fast {
   position: relative;
-  animation: moove 1s;
-  transition-timing-function: ease-in-out;
+  animation: 1s ease-in-out moove  ;
 }
 
 .cool{
@@ -28,14 +27,27 @@ body {
   text-transform: uppercase;
 }
 .cool:hover{
-  transform: scale(1.5);
+  animation: 1s ease-in-out cool;
 }
 
 @keyframes moove {
   0%{
-    right: -300px;
+    transform: translateX(150px);
   }
   100%{
-    right: center;
+    transform: translateX(0);
+
   }
+}
+
+@keyframes cool {
+
+  0%{
+    scale: 1;
+  }
+  to{
+    transform: scale(1.5) rotate(360deg);
+  }
+
+  
 }
