@@ -10,7 +10,34 @@ body {
 }
 
 .fast {
+  font-size: 48px;  
+  animation: text-animation 1s ease-in-out reverse; 
 }
 
 .cool {
+  background-color: DodgerBlue;
+  color:white;
+  border-radius: 10px;
+  border: none;
+  padding: 35px;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-origin: content-box;
+  box-shadow: 1px 3px 10px 5px #acacac;
+  cursor: pointer;
+}
+
+@keyframes text-animation {
+  from {opacity: 1; transform: translate(0px);}
+  to {opacity: 0; transform: translate(200px);}
+}
+
+@keyframes button-animation { 
+  0%   {transform: scale(1) rotate(0deg);}
+  50%  {transform: scale(1.3) rotate(180deg);}
+  100%  {transform: scale(0.9) rotate(360deg);}  
+} 
+
+.cool:hover {
+  animation: button-animation 1s ease-in-out;
 }
