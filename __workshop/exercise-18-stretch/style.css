@@ -1,0 +1,19 @@
+body {
+    margin: 40px;
+}
+
+.list-group{
+    list-style-type: none;    
+    padding: 0px;
+    margin: 0px; 
+}
+
+.list-group-item{
+    list-style-type: none;
+    padding: 15px 20px;
+    border-bottom: solid 2px #eaeaea;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
