@@ -6,8 +6,47 @@ body {
   background-color: #383737;
 }
 
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  color: white; 
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-items li{
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
-  display: inline-block;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown{
+  position: relative;
+  margin: 0 30px;
+}
+
+.dropdown-content{
+  background-color: #00bfff;
+  color: white;
+  list-style: none;
+  font-size: 16px;
+  display: none;
+  position: absolute;
+  padding: 0px;
+}
+
+.dropdown-content--item{
+  line-height: 2em;
+}
+
+.dropdown-content :hover{
+  background-color: #0099cc;
 }
