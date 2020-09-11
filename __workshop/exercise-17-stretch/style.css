@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: solid 2px #eaeaea;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.card-header {
+    border-bottom: solid 2px #eaeaea;
+    padding: 15px 20px;
+    background-color: #f6f6f6;
+    font-weight: bold;
+    color: #505050;
+}
+
+.card-body {
+   padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin:0;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0;
+}
