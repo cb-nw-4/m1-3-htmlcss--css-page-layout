@@ -1,3 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.facts {
+  display: flex;
+  justify-content: center;
+  border-spacing: 0;
+  border:lightgrey solid 1px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+th {
+  padding: 10px;
+  text-align: center;
+}
+td {
+  width: 21.5vw;
+  padding: 10px;
+  text-align: center;
+}
 h3 {
   margin-bottom: 0;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+  background-color: #1a75ff;
+  padding-top: 15px;
+  width: 20vw;
+  height: 35px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
 }
