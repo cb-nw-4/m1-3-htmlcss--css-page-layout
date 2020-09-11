@@ -10,7 +10,31 @@ body {
 }
 
 .fast {
+  font-size: 40px;
+  animation-name: slidein-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes slidein-right {
+  0% {transform: translateX(100%); opacity: 0;}
+  100% {transform: translateX(0); opacity: 1;}
 }
 
 .cool {
+  font-size: 20px;
+  color: white;
+  padding: 25px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(33, 142, 243);
+  box-shadow: 0 0 10px 5px #bbb9b9;
+  transition: .5s ease-out;
+}
+
+.cool:hover {
+  cursor: pointer;
+  transform: scale(1.2) ;
 }
