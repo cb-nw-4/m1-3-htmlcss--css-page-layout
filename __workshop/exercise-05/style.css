@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    display: grid | inline-grid;;
+    width: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+img {
+    width: calc(100% / 3 - 3px);
+}

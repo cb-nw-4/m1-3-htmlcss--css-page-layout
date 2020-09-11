@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3633;
+    color: white;
+    height: 5vh;
+    margin: 0;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3633;
+    color: white;
+    height: 5vh;
+    margin: 0;
+
+}

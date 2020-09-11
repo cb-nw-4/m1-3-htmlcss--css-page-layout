@@ -2,6 +2,51 @@ body {
   margin: 0;
 }
 
-.mobile-nav-button img {
-  width: 18px;
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 20px;
+  font-size: 1.2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
+@media (max-width: 720px) {
+  .mobile-nav {
+    display: flex;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav-button img {
+    width: 18px;
+  }
+}
+
+
+
+
+
+
+

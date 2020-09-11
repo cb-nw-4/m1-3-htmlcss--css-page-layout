@@ -1,38 +1,118 @@
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header {
+  width: 100%;
+  margin-top:0;
+  text-align: center;
+  background-color: #038AF8;
+  padding: 20px;
+  box-shadow: 0 0 15px #888888;
+  color: white;
+
 }
 
 .registration-form {
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px #888888;
+  padding: 30px;
 }
 
-.text-field {
+input[type="radio"]:focus + label {
+  background-color:#bfb;
+  border-color: #4c4;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field,
+div.text-field {
+  align-self: center;
+  width: 400px;
+  border: 2px solid #AAD7FC;
+  border-radius: 5px;
+}
+.text-field:focus {
+  border: 2px solid #038AF8;
+  border-radius: 5px;
+  outline: 0;
 }
 
 .radio-label,
 .checkbox-label {
+  display: flex;
+  align-content: flex-start;
+  margin: 0;
+  padding: 5px;
 }
 
+
 label {
+  text-align: center;
+  margin: 8px;
 }
 
 .section {
+  padding-top: 5px;
+  margin-top: 10px;
+  border-top: 2px solid grey;
 }
 
 .section > label {
+  align-self: flex-start;
+  margin: 0;
+
 }
 
 select {
+  background-color: #88888848;
+  border-radius: 5px;
 }
 
 textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  background-color: #F4F4F4;
+  border: 0;
+  border-radius: 5px;
+}
+
+textarea:focus {
+  border: 2px solid #038AF8;
+  border-radius: 5px;
+  outline: 0;
 }
 
 .form-button {
+  width: 100px;
+  align-self: center;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #AAD7FC;
+  margin: 10px;
 }
 
 .form-button:hover {
+  background-color: #038AF8;
+  color: white;
+  border: 2px solid #038AF8;
+}
+
+.form-button:active {
+  transform: scale(1.02);
+  outline: 0;
 }

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+p {
+    display: flex;
+    background-image: url("/__workshop/exercise-03/imgs/bg.jpg");
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 32px;
+    color: white;
+}
