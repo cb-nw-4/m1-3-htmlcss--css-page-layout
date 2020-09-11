@@ -114,4 +114,5 @@ textarea:focus {
 
 .form-button:active {
   transform: scale(1.02);
-  outlin
+  outline: 0;
+}
