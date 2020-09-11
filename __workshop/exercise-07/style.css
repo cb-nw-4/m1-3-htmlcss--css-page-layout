@@ -2,6 +2,77 @@ body {
   margin: 0;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .desktop-nav {
+    margin: 0px 15px 0px 15px;
+  }
+
+  ul {
+    display: flex;
+    margin: 0px 15px 0px 15px;
+    list-style-type: none;
+  }
+
+  li {
+    padding: 0px 15px 0px 15px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .li:last-of-type {
+    margin-right: 0px;
+  }
+}
+
+
+@media (max-width: 799px) {
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
 .mobile-nav-button img {
   width: 18px;
 }
+
+
+```
+@media
+:last-of-type
+```
+
+### Properties Needed
+
+```
+/* display */
+/* justify-content */
+/* align-items */
+/* padding */
+/* margin */
+/* list-style */
+```
