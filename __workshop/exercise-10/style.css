@@ -18,12 +18,12 @@ body {
   from {
     transform: translateX(100%);
     opacity: 0;
-}
+  }
 
-to {
-    transform: translateX(0);
-    opacity: 1;
-}
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
 }
 
 .cool {  
@@ -34,13 +34,21 @@ to {
   border:none;
   outline: none;
   box-shadow: 2px 2px 2px gray;
-  animation-name: rotate;
-  animation-duration:  1s;
-  text-transform: uppercase;
+
 }
 .cool:hover{
   cursor: pointer;
   transform:scale(1.5);
+  animation-name: rotate;
+  animation-duration:  1s;
+  text-transform: uppercase;
+
+}
+.main > div:hover{
+  animation-name: bounce;
+  animation-duration: 1s;
+  /* animation-timing-function:  ease-in; */
+  animation-delay: 1.5s;
 }
 .cool:active{
   cursor: pointer;
@@ -57,6 +65,17 @@ to {
   75%{transform:scale(1.2) rotate(270deg);}
 
   to{transform:scale(1) rotate(360deg);}
+
+}
+
+@keyframes bounce{
+  from {
+    transform: translateY(50px);
+  }
+
+  to {
+      transform: translate(5px);
+  }
 
 }
 
