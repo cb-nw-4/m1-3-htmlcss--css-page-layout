@@ -1,7 +1,57 @@
 body {
-  margin: 0;
+  margin: 0px;
+  }
+
+h1{
+  margin: 20px;
+  margin-top: 13px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.desktop-nav{
+  display: none;
+  
+}
+
+li:last-of-type{
+  margin-right:10px;
+  
+}
+
+ul{
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+li
+{
+  margin: 20px;
+}
+
+.mobile-nav-button{
+  margin: 20px;
 }
 
 .mobile-nav-button img {
   width: 18px;
+  
+}
+
+/* On screens that are 800px wide or less*/
+@media screen and (min-width: 800px) {
+  .desktop-nav{
+    display: block;    
+  }
+
+  .mobile-nav{
+    display: none;
+  }
 }
