@@ -25,10 +25,10 @@ Your HTML should have the following structure:
 </html>
 ```
 
-- Set the body margin to 0
-- Give the `<body>` a `0` margin.
-- Use the Poppins font
-- Use the provided image in the imgs folder
+<!-- - Set the body margin to 0
+- Give the `<body>` a `0` margin. -->
+<!-- - Use the Poppins font -->
+<!-- - Use the provided image in the imgs folder -->
 
 To style your main `<div>` with a background image, you will need to use:
 
