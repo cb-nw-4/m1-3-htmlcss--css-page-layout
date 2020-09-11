@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
 }
 
 .main {
@@ -10,7 +11,31 @@ body {
 }
 
 .fast {
+  position: relative;
+  animation: moove 1s;
+  transition-timing-function: ease-in-out;
 }
 
-.cool {
+.cool{
+  background-color:#1E90FF;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 20px 5px 3px #F8F8FF;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+.cool:hover{
+  transform: scale(1.5);
+}
+
+@keyframes moove {
+  0%{
+    right: -300px;
+  }
+  100%{
+    right: center;
+  }
 }
