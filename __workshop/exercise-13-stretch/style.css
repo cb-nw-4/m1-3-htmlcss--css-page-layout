@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 28px; 
 }
-p{
+p {
     margin: 0;
 }
 
@@ -13,49 +13,50 @@ p{
     border: solid 2px;
 }
 
-.alert-primary {  
-    background-color: hsl(210, 100%, 90%);
-    color: hsl(210, 100%, 20%);
-    border-color: hsl(210, 100%, 85%);   
+.alert-primary {     
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
 } 
 
 .alert-secondary{
-    background-color: hsl(220, 5%, 90%);
-    color: hsl(220, 5%, 20%);
-    border-color: hsl(220, 5%, 85%);
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
 }
+
 .alert-success{
-    background-color: hsl(132, 41%, 88%);
-    color: hsl(132, 41%, 20%);
-    border-color: hsl(132, 41%, 85%);
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
 }
 
 .alert-danger{
-    background-color: hsl(355, 74%, 91%);
-    color: hsl(355, 74%, 20%);
-    border-color: hsl(355, 74%, 85%);
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
 }
 
 .alert-warning{
-    background-color: hsl(47, 100%, 90%);
-    color: hsl(47, 100%, 20%);
-    border-color: hsl(47, 100%, 80%);
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
 }
 
 .alert-info{
-    background-color: hsl(189, 53%, 88%);
-    color: hsl(189, 53%, 20%);
-    border-color: hsl(189, 53%, 85%);
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
 }
 
 .alert-light{
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 40%);
-    border-color: hsl(0, 0%, 99%);
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
 }
 
 .alert-dark{
-    background-color: hsl(200, 4%, 85%);
-    color: hsl(200, 4%, 15%);
-    border-color: hsl(200, 4%, 80%);
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
 }
