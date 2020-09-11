@@ -25,12 +25,12 @@ Your HTML should have the following structure:
 </html>
 ```
 
-- Set the body margin to 0
-- Give the `<body>` a `0` margin.
-- Use the Poppins font
+<!-- - Set the body margin to 0 -->
+<!-- - Give the `<body>` a `0` margin. -->
+<!-- - Use the Poppins font -->
 - Use the provided image in the imgs folder
-
-To style your main `<div>` with a background image, you will need to use:
+<!-- 
+To style your main `<div>` with a background image, you will need to use: -->
 
 ```css
 background-image: url('imgs/bg.jpg'); /* you need to specify the path to the file */
@@ -41,15 +41,15 @@ background-position /* Use this to center the background image */
 ### Properties Needed
 
 ```
-margin
-font-family
-display
-align-items
-justify-content
+<!-- margin -->
+<!-- font-family -->
+<!-- display -->
+<!-- align-items -->
+<!-- justify-content -->
 min-height
-background-image
-background-size
-background-position
-color
+<!-- background-image -->
+<!-- background-size -->
+<!-- background-position -->
+<!-- color -->
 text-shadow
 ```

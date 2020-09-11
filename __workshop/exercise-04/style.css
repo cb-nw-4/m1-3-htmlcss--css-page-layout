@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 30px;
+}
+
+.container {
+   margin: 25px 450px;
+
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:hover {
+    color: rgb(85, 121, 187);
+}
+
+a::after {
+    content: ' >';
+}
