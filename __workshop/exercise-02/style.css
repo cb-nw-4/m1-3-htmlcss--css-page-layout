@@ -1,33 +1,32 @@
 body{
   margin: 0;
+  background-color: white;
 
 }
 
 .nav {
   background-color: darkgrey; 
   text-align: center;
-  margin: 0px;
-  display:flex;
-  height: 50px;
+  margin-bottom: 100px;
+}
 
-
-
+.nav ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
-.nav li {
-  font-size: 20px;
-  padding: 20px;
+.nav li{
   color: white;
-  font-family: 'Lato', sans-serif;
-  margin: auto;
-  display: inline-block;
-
-
-
-;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 30px 10px 30px;
+  list-style: none;
 
 }
+
 li:hover{
   color: grey;
   cursor: pointer;
@@ -35,4 +34,33 @@ li:hover{
 img:hover{
 opacity: 70%;
 
+}
+.logo{
+  display: inline-flex;
+}
+
+div {
+  padding: 10px;
+}
+.block{
+  background: aqua;
+}
+.child{
+  border: 1px solid black;
+}
+.inline-block{
+  background: pink;
+  display: inline-block;
+}
+.inline-flex{
+  background: greenyellow;
+  display: inline-flex;
+}
+.flex{
+  display: flex;
+  background: red;
+}
+.inline{
+  background: yellow;
+  display: inline;
 }

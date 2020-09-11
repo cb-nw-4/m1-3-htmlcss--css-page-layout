@@ -1,0 +1,21 @@
+div{
+
+}
+img{
+    margin: 0px 2px 0px 2px;
+    width: auto;
+
+}
+.responsive{
+    width: 100%;
+    flex-grow: 1;
+
+
+}
+.images{
+    display: flex;
+
+}
+body{
+    margin: 0;
+}
