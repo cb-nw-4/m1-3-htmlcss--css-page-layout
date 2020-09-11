@@ -8,15 +8,15 @@ Create an `index.html` file and a `style.css` file that reproduces the following
 
 ### Reference
 
-- Use the Poppins font
-
+<!-- - Use the Poppins font -->
+<!-- 
 You can use the `::after` pseudoelement to add an arrow to the "Find a store" link, e.g.
 
 ```css
 .link::after {
   content: '>';
 }
-```
+``` -->
 
 ### Properties Needed
 
