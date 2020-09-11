@@ -4,6 +4,8 @@ body {
 
 .nav {
   background-color: #383737;
+  color: #fff;
+  height: 50px;
 }
 
 .nav-dropdown {
@@ -11,3 +13,46 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+.dropdown {
+  padding-right: 25px;
+  position: relative;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dropdown-content {
+  background-color: blue;
+  display: none;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.dropdown-content--item {
+  padding: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-right: 0px;
+  margin: 0px -25px;
+  position: relative;
+  left: 25px;
+}
+
+.dropdown-content--item:hover {
+  background-color: lightskyblue;
+}
+
+
