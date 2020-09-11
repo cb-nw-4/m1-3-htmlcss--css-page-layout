@@ -4,35 +4,88 @@ body {
 }
 
 .header {
+  text-align: center;
+  background-color: #2B98FB;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  box-shadow: 0 5px 5px #bfbfbf;
+  margin-bottom: 90px;
 }
 
 .registration-form {
+  box-shadow: 0 0 5px #bfbfbf;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+  top: -40px;
+  text-align: center;
+  padding: 15px;
 }
 
 .text-field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border:1px solid #2B98FB;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px; 
 }
 
-.radio-label,
-.checkbox-label {
+.text-field:hover {
+  border:2px solid #2B98FB;
+  outline-color: #2B98FB;
 }
 
-label {
+.text-field:focus { 
+  outline: none; 
 }
+
+.extras {
+  text-align: left;
+  margin-left: 20px;
+} /* I know I'm not supposed to add a new class but I could not find any other way */
 
 .section {
+  border-top: 2px solid #e6e6e6;
+  margin: 10px 20px;
+  text-align: left;
+  padding: 5px 0;
 }
 
 .section > label {
 }
 
+
 select {
+  margin: 10px;
+  outline-color: #2B98FB;
 }
 
 textarea {
+  width: 100%;
+  height: 100px;
+  outline-color: #2B98FB;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .form-button {
-}
+  padding: 10px 30px;
+  border: 1px solid #2B98FB;
+  background-color: white;
+  box-shadow: none;
+  transition: all .2s ease-in-out;
+  }
 
 .form-button:hover {
+  background-color: #2B98FB;
+  outline-color: #0f7ce2;
+  cursor: pointer;
+  transform: scale(1.1);
 }
