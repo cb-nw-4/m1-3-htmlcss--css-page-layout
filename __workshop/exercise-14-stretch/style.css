@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #037BFF;
+}
+
+.btn-secondary {
+    background-color: #6D757D;
+}
+
+.btn-success {
+    background-color: #29A645;
+}
+
+.btn-danger {
+    background-color: #DC3445;
+}
+
+.btn-warning {
+    background-color: #FFC108;
+    color: black;
+}
+
+.btn-info {
+    background-color: #14A2B8;
+}
+
+.btn-light {
+    background-color: #F8F9FA;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #343A40;
+}
+
+.btn-link {
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
