@@ -1,7 +1,51 @@
+*{
+}
 body {
   margin: 0;
 }
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;;
 
+
+
+}
+.container{
+
+}
+
+.desktop-nav ul{
+
+  display: flex;
+  list-style: none;
+  padding: 2rem;
+}
+.desktop-nav li{
+  padding: 0 10px 0 10px;
+}
+.mobile-nav{
+  display: none;
+
+}
 .mobile-nav-button img {
   width: 18px;
+
+
 }
+@media screen and (max-width: 800px) {
+  .mobile-nav{
+    display: block;
+  
+  }
+  .desktop-nav{
+    display: none;
+
+
+  }
+
+}
+
+
+
+

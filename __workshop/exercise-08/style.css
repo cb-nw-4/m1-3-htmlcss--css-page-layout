@@ -4,35 +4,120 @@ body {
 }
 
 .header {
+  background-color: skyblue;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 25px;
+  color: white;
+  box-shadow: 5px 10px #888888;
 }
 
 .registration-form {
+  border: 2px solid black;
+  margin: 30px 70px 30px 70px;
+  padding: 2rem;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+
+
 }
 
 .text-field {
-}
 
+  width: 200px;
+
+
+}
 .radio-label,
 .checkbox-label {
+
 }
 
 label {
+  text-align: center;
+
+
 }
 
 .section {
+  border-top: 2px solid grey;
+  padding-top: 10px
+  
+
+  
+
+
 }
 
 .section > label {
+  background-color: blue;
+
 }
 
 select {
 }
 
 textarea {
-}
+width: 500px;
+height: 70px;}
 
 .form-button {
+    width: 100px;
+    padding: 10px 20px 10px 20px;
+
+
 }
 
 .form-button:hover {
+  cursor: pointer;
+
+
 }
+
+div{
+  background-color: red;
+
+ 
+
+
+
+}
+/*
+# 1.2 - CSS: Page Layout - Workshop
+
+## Exercise 8
+
+Update only the CSS file to reproduce the following:
+
+![exercise-8 goal](../../__lecture/assets/ex-8-goal.gif)
+
+## Reference
+
+Needed CSS properties
+
+```
+box-shadow
+margin-bottom
+border-radius
+max-width
+box-sizing
+border-top
+text-align
+margin-left
+width
+min-height
+margin-top
+padding
+font-size - done
+border - done
+margin - done
+display
+cursor
+transition
+background-color-done
+color - done
+:hover
+```
+*/
