@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: 'poppins', sans-serif;    
+    text-align: center;
+    
+}
+
+h1 {    
+    font-size: 25px;   
+    color: #282828;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2 {
+    text-transform: bold;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em; 
+}
+
+.link {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '>';
+}
