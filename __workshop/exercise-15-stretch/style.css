@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: solid 2px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: white;
+}
+
+.btn-outline-primary {
+    color: #037BFF;
+    border-color: inherit;
+}
+
+.btn-outline-secondary {
+    color: #6D757D;
+    border-color: inherit;
+}
+
+.btn-outline-success {
+    color: #29A645;
+    border-color: inherit;
+}
+
+.btn-outline-danger {
+    color: #DC3445;
+    border-color: inherit;
+}
+
+.btn-outline-warning {
+    color: #FFC108;
+    border-color: inherit;
+}
+
+.btn-outline-info {
+    color: #14A2B8;
+    border-color: inherit;
+}
+
+.btn-outline-light {
+    color: #F8F9FA;
+    border-color: inherit;
+}
+
+.btn-outline-dark {
+    color: #343A40;
+    border-color: inherit;
+}
