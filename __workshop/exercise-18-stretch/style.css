@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.card {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.card-header {
+    background-color:rgb(240, 240, 240);
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.list-group {
+    list-style-type: none;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin:0;
+}
+
+.list-group-item {
+    padding: 15px 20px;
+}
+
+.list-group-item:not(:last-child) {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
