@@ -4,35 +4,88 @@ body {
 }
 
 .header {
+  background-color:#1E90FF ;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  
 }
 
 .registration-form {
+ display: flex;
+ flex-direction: column;
+ margin: 20px;
+ padding: 20px;
+ border: 1px solid rgb(238, 235, 235);
+ box-shadow: 2px 5px 5px lightgray;
+ border-radius: 5px;
+ min-height: 150hv;
+ max-width: 100wh;
 }
 
 .text-field {
+ width: 400px;
+ align-self: center;
+
+}
+.text-field:focus{
+   border: 1px solid #1E90FF;
+}
+
+.registration-form > div:nth-of-type(1){
+  display: contents;
 }
 
 .radio-label,
 .checkbox-label {
+  padding: 5px 0;
 }
 
 label {
+  align-self: center;
 }
 
 .section {
+  margin: 10px;
+  padding: 10px 0;
+  border-top: 1px solid lightgrey;
 }
 
 .section > label {
+  padding: 5px 0;
 }
 
+
 select {
+  background-color: #1E90FF;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 textarea {
+  display: block;
+  width: 98%;
+  height: 100px;
+  background-color: #F0F8FF;
 }
 
+textarea:focus{
+  border: 1px solid #1E90FF;
+}
+
+
+
 .form-button {
+  align-self: center;
+  width: 100px; 
+  margin-top: 20px;
+  padding: 10px;
+  
 }
 
 .form-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #1E90FF;
+  
 }
