@@ -1,0 +1,47 @@
+body {
+    margin: 0 20px;
+}
+
+.header {
+    font-family: sans-serif;
+    margin: 20px 5px;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px; 
+}
+
+.btn-primary {
+    background-color: #3574f1;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6f7074;
+    color: white;
+}
+
+.btn-lg {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.btn-sm {
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-secondary.btn-block {
+    margin-top: 5px;
+}
+
+.btn-disabled {
+    opacity: 60%;
+}
