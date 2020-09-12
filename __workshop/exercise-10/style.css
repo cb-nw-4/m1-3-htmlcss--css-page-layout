@@ -10,7 +10,44 @@ body {
 }
 
 .fast {
+  position: relative;
+  animation: slide 2s infinite;
+  animation-timing-function:ease-in-out;
+
 }
 
 .cool {
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(62, 139, 255);
+  background-color: rgb(62, 139, 255);
+  box-shadow: 0px 0px 2px 2px gray;
+  color: white;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
+  outline-style: none;
+}
+
+.cool:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.cool:active{
+  animation: buttonclick 1s 1;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes slide {
+  from {transform: translate(200px)}
+  to {transform: translate(0px)}
+}
+
+@keyframes buttonclick {
+  from {transform: scale(1)}
+  to {transform: scale(0.8) rotate(360deg);}
 }
