@@ -2,6 +2,36 @@ body {
   margin: 0;
 }
 
-.mobile-nav-button img {
-  width: 18px;
+.mobile-nav {    
+  display: none;
+}
+  
+@media (max-width: 800px) {    
+  .mobile-nav-button img {      
+    width: 18px;    
+  }      
+  .mobile-nav {      
+    display: flex;    
+  }
+  .desktop-nav {      
+    display: none;    
+  }
+}
+  
+header {    
+  display: flex;    
+  flex-direction: row;    
+  align-items: center;    
+  padding: 10px;
+  justify-content: space-between;  
+}
+  
+ul {    
+  display: flex;    
+  flex-direction: row;      
+}
+  
+li {    
+  padding: 10px;    
+  list-style-type: none;
 }
