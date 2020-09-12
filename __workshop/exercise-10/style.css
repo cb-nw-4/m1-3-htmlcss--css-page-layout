@@ -10,7 +10,32 @@ body {
 }
 
 .fast {
+  animation: 1s ease-in-out 1 hello;
+}
+
+@keyframes hello {
+0% {transform: translate(200px); opacity: 0;}
+100% {transform: translate(0); opacity: 100;}
 }
 
 .cool {
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: rgb(28, 138, 241);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px grey, -1px -1px 5px grey;
+}
+
+.cool:hover {
+  animation: 1s ease-in-out 1 button;
+}
+
+@keyframes button {
+  0% {transform: scale(1);}
+  75% {transform: scale(1.25);}
+  90% {transform: scale(0.8);}
+  100% {transform: scale(1);}
 }
