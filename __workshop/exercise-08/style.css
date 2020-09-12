@@ -1,15 +1,55 @@
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+  color: white;
+  Background-color: rgb(0, 132, 255);
+  width: 100vw;
 }
 
 .registration-form {
+  margin: 0px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  width: calc(100vw * 0.75);
+  padding: 20px;
+  padding-right:100px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
 }
 
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .text-field {
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px 1px #2c91f0;
+  border-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+.text-field:focus {
+  outline-style: none;
+  box-shadow: 0px 0px 2px 2px #2d9aff;
 }
 
 .radio-label,
@@ -17,22 +57,57 @@ body {
 }
 
 label {
+  text-align: center;
 }
 
 .section {
+  display: flex;
+  align-items: flex-start;
+  width: calc(100vw * 0.75);
+  margin-bottom: 20px;
 }
 
-.section > label {
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  width: calc(100vw * 0.75);
+  margin-bottom: 20px;
 }
 
 select {
+  margin: 10px;
 }
 
 textarea {
+  width: calc(100vw * 0.75);
+  height: 100px;
+  margin: 10px;
+  border-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
 }
 
+textarea:focus {
+  outline-style: none;
+  box-shadow: 0px 0px 2px 2px #2d9aff;
+}
+
+
+
 .form-button {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px -2px 0px 0px #2c91f0;
+  border-radius: 5px;
+  background-color: white;
+  font-family: Poppins, sans-serif;
 }
 
 .form-button:hover {
+  background-color: rgb(72, 145, 255);
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
