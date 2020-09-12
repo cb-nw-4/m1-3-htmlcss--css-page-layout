@@ -10,7 +10,35 @@ body {
 }
 
 .fast {
+  animation-name: fast-animation;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.75s;
+}
+
+@keyframes fast-animation{
+  0%{transform: translate(100px, 0px);opacity: 30%;}
+  100%{transform: translate(0,0); opacity: 100%}
 }
 
 .cool {
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 6px 3px grey;
+}
+.cool:hover{
+  animation:hover 1s;
+  cursor: pointer;
+}
+
+@keyframes hover{
+  0%{transform: scale(1,1);}
+  50%{transform: scale(1.25,1.25);}
+  100%{transform: scale(1,1);}
 }
