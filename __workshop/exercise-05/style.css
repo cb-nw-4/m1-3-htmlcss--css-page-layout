@@ -1,0 +1,14 @@
+body { 
+    margin:0; 
+}
+
+.container , .container2 {  
+    width:100%;
+    display: flex;
+    flex: 0 1 100vw;
+}
+
+img { 
+    width:calc(100%/3);
+}
+
