@@ -17,5 +17,5 @@ margin
 list-style-type
 padding
 background-color
-:hover
+:hover - looking good 
 ```

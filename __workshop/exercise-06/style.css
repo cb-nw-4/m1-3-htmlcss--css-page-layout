@@ -4,10 +4,75 @@ body {
 
 .nav {
   background-color: #383737;
+
 }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+
+
+
 }
+.nav-items{
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  
+}
+.dropdown-content{
+  list-style: none;
+  display:none;
+  left: 0px;
+  top: 35px; /*adjusting top closer to the top makes menu work, but design isnt congruent  */
+  background-color: #03a9f4;
+  padding: 20px 20px 20px 20px; 
+  left: 35px;
+
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  float: left;
+
+
+}
+
+
+.dropdown-content--item:hover{
+  background-color: #1e90ff;
+
+
+}
+p{
+  padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+position
+top
+left
+display
+margin
+list-style-type
+padding
+background-color
+:hover - looking good 
+```
+*/
