@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.row img {
+    display: inline-block;
+    width: calc(98% / 3);
+    padding: 1px;
+}
