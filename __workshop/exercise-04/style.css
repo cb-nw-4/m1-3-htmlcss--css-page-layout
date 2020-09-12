@@ -35,3 +35,8 @@ a{
 }
 a:visited
 {text-decoration: none;}
+
+a.button-text:visited{
+    color:black;
+
+}
