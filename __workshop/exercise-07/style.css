@@ -1,7 +1,50 @@
 body {
   margin: 0;
 }
+header {
+  height: 55px;
+  /* background-color: gray; */
+  width: 100vw;
+}
+
+h1 {
+  float: left;
+}
 
 .mobile-nav-button img {
   width: 18px;
+}
+
+ul {
+  float: right;
+  margin-right: 100px;
+}
+
+li {
+  display: inline;
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+  ul {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li a {
+    display:block;
+    padding: 5px 15px;
+  }
+}
+
+
+@media screen and (min-width:801px){
+  .mobile-nav-button {
+  display: none;
+}
 }
