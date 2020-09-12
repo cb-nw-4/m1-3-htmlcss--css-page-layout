@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+}
+
+img {
+    margin: 1px;
+    width: calc(100% / 3)
+}
