@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alert {
+    border: solid 1px transparent;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+.alert-primary {
+    background-color: #CBE5FF;
+}
+
+.alert-secondary {
+    background-color: #E2E3E5;
+}
+
+.alert-success {
+    background-color: #D4EDD9;
+}
+
+.alert-danger {
+    background-color: #F9D7D9;
+}
+
+.alert-warning {
+    background-color: #FFF3CD
+}
+
+.alert-info {
+    background-color: #D1ECF1
+}
+
+.alert-light {
+    background-color: #FEFEFE;
+}
+
+.alert-dark {
+    background-color: #D6D8D9;
+}
