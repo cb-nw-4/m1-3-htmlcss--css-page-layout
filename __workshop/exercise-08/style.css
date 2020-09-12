@@ -4,35 +4,74 @@ body {
 }
 
 .header {
+  background-color:  #3366ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .registration-form {
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 5px darkgrey;
 }
 
 .text-field {
+  border-color: #3366ff;
+  border-radius: 5px;
+  display: block; 
+  display: block;
+  margin: auto; 
+
 }
 
 .radio-label,
 .checkbox-label {
+  text-align: left;
+  margin: 20;
+  margin-left: 0;
 }
+
 
 label {
+  text-align: center;
+  display: block;
 }
 
-.section {
+.section {  
+  border-top: solid 1px lightgrey;
 }
 
 .section > label {
+  text-align: left;
 }
 
 select {
+  margin-left: 5px;
+  background-color: rgb(240,240,240); 
 }
 
-textarea {
+textarea {  
+  background-color: rgb(240,240,240)  ;
+  display: block;
+  border: none;
+  width: 100%;
+  min-height: 100px;
 }
 
 .form-button {
+  display: block;
+  margin:20px auto;
+  padding: 15px 40px;
+  transition:  0.2s ease-in-out;
+  background-color: white;
+  border-color:  #3366ff;
+  cursor: pointer;
 }
 
-.form-button:hover {
+.form-button:hover {  
+  background-color: #3366ff;
+  color: white;
 }
