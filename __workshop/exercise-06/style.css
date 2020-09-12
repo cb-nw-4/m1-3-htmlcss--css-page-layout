@@ -6,8 +6,38 @@ body {
   background-color: #383737;
 }
 
-.nav-dropdown {
-  color: #fff;
-  text-decoration: none;
+.nav-items > li {
   display: inline-block;
+}
+
+.nav-items {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-label{
+  margin: 0;
+  padding: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content--item {
+  background-color:#6493C3;
+  color:white;
+  padding: 20px;
+}
+
+.dropdown-content--item:hover{
+  background-color: #2F6FB0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
