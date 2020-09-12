@@ -32,9 +32,9 @@ body {
 }
 
 .btn {
+    color: white;
     background-color: #3574f1;
     border-radius: 4px;
-    color: white;
     text-decoration: none;
     padding: 10px;
     width: 120px;
