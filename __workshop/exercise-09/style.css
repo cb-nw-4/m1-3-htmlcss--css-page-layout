@@ -1,3 +1,48 @@
-h3 {
-  margin-bottom: 0;
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+}
+
+.facts {
+  margin: 20px auto;
+  border: solid 1px lightgray;
+  padding: 15px;
+  width: 90%;
+  line-height: 1.5;
+}
+
+table {
+ border-spacing: 0;
+}
+
+tr:nth-child(2), tr:nth-child(4)  {
+  background: lightgray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+list-style-type: none;
+  margin: 10px;
+  width: 20%;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #005ce6;
+  text-align: center;
+}
+
+
+.links {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
