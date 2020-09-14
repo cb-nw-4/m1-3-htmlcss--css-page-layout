@@ -4,12 +4,31 @@ body {
 }
 
 .header {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 10px lightgray;
+  color: white;
+  background-color: blue;
+}
+
+div {
+  text-align: center;
+}
+
+div:nth-child(7) {
+  text-align: left;
 }
 
 .registration-form {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px lightgray;
+  margin: 30px 70px 0px 70px;
+  text-align: center;
 }
 
 .text-field {
+
 }
 
 .radio-label,
@@ -17,22 +36,73 @@ body {
 }
 
 label {
+  display: block;
 }
 
 .section {
+  text-align: left;
+  border-top: 1px solid lightgray;
+  margin-top: 5px;
 }
 
 .section > label {
 }
 
 select {
+  background-color: #f5f5f5;
 }
 
 textarea {
+  display: block;
+  width: 95%;
+  height: 75px;
+  margin: auto;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px 1px cornflowerblue
 }
 
 .form-button {
+  border: 1px solid cornflowerblue;
+  padding: 10px 20px;
+  margin: 10px 0px 20px 0px;
+  background-color: white;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .form-button:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.form-button:active {
+  box-shadow: 0px 0px 2px 2px cornflowerblue;
+  outline: none;
+}
+
+.checkbox-label {
+  text-align: left;
+}
+
+.radio-label {
+  text-align: left;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  border: 1px solid cornflowerblue;
+  border-radius: 3px;
+  width: 200px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px 1px cornflowerblue
 }
