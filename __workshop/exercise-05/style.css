@@ -1,45 +1,23 @@
-/* There was confusion about whether the
-example was simply the browser being resized
-or if that was the actual behaviour we were
-expected to reproduce.  I had already chosen
-the latter prior to the clarification so
-this is the solution I'm submitting :o)
-
-To active the effect click and hold your
-mouse button over the graphic. */
-
-
 body {
     margin: 0;
-    max-width: 800px;
+    padding: 0;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
-    width: 800px;
-    height: 532px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    transition: width 2s ease-in-out;
-}
-
-.row {
     display: flex;
-    padding: 0 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 0;
 }
 
-.column {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 1px;
-}
-
-.background {
-    width: 100%;
-    object-fit: fill;
-}
-
-.container:active {
-    width: 350px;
+.cell {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    padding: 1px;
 }
