@@ -2,12 +2,11 @@ body {
   margin: 0;
 }
 
-h1 {
-  display: inline;
-}
-
-.desktop-nav, .mobile-nav {
-  float: right;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0px 20px 0px 20px;
 }
 
 .mobile-nav-button img {
