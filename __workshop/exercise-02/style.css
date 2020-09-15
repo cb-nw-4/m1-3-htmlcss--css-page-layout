@@ -18,10 +18,6 @@ a {
     padding-left:2%;    
 }
 
-.icon {
-    display: block;
-}
-
 a:hover {
 	opacity: 0.5;
     transition-timing-function: ease-in-out;
