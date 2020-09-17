@@ -1,0 +1,49 @@
+body {
+    margin: 50px;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #00bfff;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: gray;
+}
+
+.btn-success {
+    color: white;
+    background-color: #32cd32;
+}
+
+.btn-danger {
+    color: white;
+    background-color: tomato;
+}
+
+.btn-warning {
+    background-color: #ffd700;
+}
+
+.btn-info {
+    color: white;
+    background-color: #5f9ea0;
+}
+
+.btn-dark {
+    color: white;
+    background-color: black;
+}
+
+.btn-link {
+    color: blue;
+}
