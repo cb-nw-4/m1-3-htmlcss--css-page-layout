@@ -1,0 +1,49 @@
+body {
+    margin: 50px;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #00bfff;
+    border: 1px solid #00bfff;
+}
+
+.btn-secondary {
+    color: gray;
+    border: 1px solid gray;
+}
+
+.btn-success {
+    color: #32cd32;
+    border: 1px solid #32cd32;
+}
+
+.btn-danger {
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.btn-warning {
+    color: #ffd700;
+    border: 1px solid #ffd700;
+}
+
+.btn-info {
+    color: #5f9ea0;
+    border: 1px solid #5f9ea0;
+}
+
+.btn-dark {
+    border: 1px solid black;
+}
+
+.btn-light {
+    color: #c0c0c0;
+    border: 1px solid #c0c0c0;
+}
