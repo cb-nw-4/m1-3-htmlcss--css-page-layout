@@ -1,0 +1,39 @@
+body {
+    margin: 50px;
+}
+
+div {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #1e90ff;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: gray;
+}
+
+.btn-sm {
+    font-size: medium;
+}
+
+.btn-lg {
+    font-size: 24px;
+}
+
+.btn-block {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
